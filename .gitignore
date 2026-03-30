@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+
+# builds
+dist/
+build/
+out/
+
+# env files
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# coverage
+coverage/
+
+# temp
+tmp/
+temp/
+
+# cache
+.cache/
+.parcel-cache/
+
+# Next.js / Vite / React
+.next/
+vite.config.ts.timestamp-*
+*.tsbuildinfo
+
+# misc
+*.local
